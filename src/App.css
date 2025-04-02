@@ -1,0 +1,47 @@
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #000000;
+  font-size: 70px;
+}
+
+.dark-mode {
+  color: #fff;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  background-image: url(./1743421822392.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0; 
+} 
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+  gap: 1rem; 
+}
+
+.input {
+  border: 1px solid #333;
+  padding: 0.7rem;
+  width: 20%;
+
+}
+
+select {
+  padding: 0.7rem; 
+}
